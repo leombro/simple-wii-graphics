@@ -1,0 +1,214 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		AF7A82DC1AA7ABCB00B13D15 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		AF7A82EB1AACCA4C00B13D15 /* simple_graphics.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = simple_graphics.c; sourceTree = "<group>"; };
+		AF7A82EC1AACCA4C00B13D15 /* simple_graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simple_graphics.h; sourceTree = "<group>"; };
+		AF7A82ED1AACCDC600B13D15 /* s_errors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = s_errors.c; sourceTree = "<group>"; };
+		AF7A82EE1AACCDC600B13D15 /* s_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = s_errors.h; sourceTree = "<group>"; };
+		AF7A82EF1AADBBCA00B13D15 /* s_primitives.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = s_primitives.c; sourceTree = "<group>"; };
+		AF7A82F01AADBBCA00B13D15 /* s_primitives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = s_primitives.h; sourceTree = "<group>"; };
+		AF7A82F11AAE1B2800B13D15 /* test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		AF7A82D11AA7AB4F00B13D15 = {
+			isa = PBXGroup;
+			children = (
+				AF7A82DF1AA7AC2700B13D15 /* source */,
+				AF7A82DC1AA7ABCB00B13D15 /* Makefile */,
+			);
+			sourceTree = "<group>";
+		};
+		AF7A82DF1AA7AC2700B13D15 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				AF7A82EB1AACCA4C00B13D15 /* simple_graphics.c */,
+				AF7A82EC1AACCA4C00B13D15 /* simple_graphics.h */,
+				AF7A82ED1AACCDC600B13D15 /* s_errors.c */,
+				AF7A82EE1AACCDC600B13D15 /* s_errors.h */,
+				AF7A82EF1AADBBCA00B13D15 /* s_primitives.c */,
+				AF7A82F01AADBBCA00B13D15 /* s_primitives.h */,
+				AF7A82F11AAE1B2800B13D15 /* test.c */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		AF7A82D61AA7AB4F00B13D15 /* simplewiigraphics */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = AF7A82D91AA7AB4F00B13D15 /* Build configuration list for PBXLegacyTarget "simplewiigraphics" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/neku/Documents/Development/Wii/simplewiigraphics;
+			dependencies = (
+			);
+			name = simplewiigraphics;
+			passBuildSettingsInEnvironment = 1;
+			productName = simplewiigraphics;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		AF7A82D21AA7AB4F00B13D15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ium;
+				TargetAttributes = {
+					AF7A82D61AA7AB4F00B13D15 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = AF7A82D51AA7AB4F00B13D15 /* Build configuration list for PBXProject "simplewiigraphics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF7A82D11AA7AB4F00B13D15;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF7A82D61AA7AB4F00B13D15 /* simplewiigraphics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		AF7A82D71AA7AB4F00B13D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AF7A82D81AA7AB4F00B13D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AF7A82DA1AA7AB4F00B13D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				DEVKITPPC = $DEVKITPRO/devkitPPC;
+				DEVKITPRO = /opt/devkitpro;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF7A82DB1AA7AB4F00B13D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVKITPPC = $DEVKITPRO/devkitPPC;
+				DEVKITPRO = /opt/devkitpro;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF7A82D51AA7AB4F00B13D15 /* Build configuration list for PBXProject "simplewiigraphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7A82D71AA7AB4F00B13D15 /* Debug */,
+				AF7A82D81AA7AB4F00B13D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7A82D91AA7AB4F00B13D15 /* Build configuration list for PBXLegacyTarget "simplewiigraphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7A82DA1AA7AB4F00B13D15 /* Debug */,
+				AF7A82DB1AA7AB4F00B13D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF7A82D21AA7AB4F00B13D15 /* Project object */;
+}
